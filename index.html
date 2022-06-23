@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>To-Do List</h2>
+    <div class="container">
+        <div id="newtask">
+            <h1>My Tasks</h1>
+            <form onsubmit="event.preventDefault()">
+            <input type="text" placeholder="Enter Task" class="text">
+            <button id="push">Add</button>
+        </form>
+        <div id="tasks"></div>
+        <select name="sortby" id="sort">
+            <option value="ascending">Ascending</option>
+            <option value="descending">Descending</option>
+        </select>
+         </div>
+         </div>
+ 
+    </div> 
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
